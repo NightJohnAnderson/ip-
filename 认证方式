@@ -1,0 +1,8 @@
+# With Basic Auth
+$ curl -u $TOKEN: ipinfo.io
+
+# With Bearer token
+$ curl -H "Authorization: Bearer $TOKEN" ipinfo.io
+
+# With token query parameter
+$ curl ipinfo.io?token=$TOKEN
